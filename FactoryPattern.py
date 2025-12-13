@@ -22,18 +22,18 @@ class Hexagon(Shape):
 
 
 class ShapeFactory:
+
+    _shape_registry = {
+        "circle": Circle,
+        "rectangle": Rectangle,
+        "hexagon": Hexagon
+    }
+
     def create_shape(self, shape_type):
-        if shape_type == "circle":
-            return Circle()
-
-        elif shape_type == "rectangle":
-            return Rectangle()
-
-        elif shape_type == "hexagon":
-            return Hexagon()
-
-        else:
-            return "unknown shape type"
+        shape_class = self._shape_registry.get(shape_type.lower())
+        if not shape_class:
+            raise ValueError(f"unknown shape type {shape_type}")
+        return shape_class()
 
 
 if __name__ == "__main__":
