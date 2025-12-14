@@ -74,7 +74,7 @@ Each pattern folder contains:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/design_patterns.git
+   git clone https://github.com/mohitnagar1998/design_patterns.git
    ```
 2. Navigate to a specific pattern directory:
    ```bash
@@ -119,16 +119,15 @@ Example:
 
 ## 📚 References
 
-- *Design Patterns: Elements of Reusable Object-Oriented Software* – Erich Gamma et al.  
-- Refactoring Guru (https://refactoring.guru/design-patterns)
+- *Design Patterns: Elements of Reusable Object-Oriented Software* – Erich Gamma et al.
 
 ---
 
 ## 👨‍💻 Author
 
 **Mohit Nagar**  
-Associate Software Engineer @ Venera Technologies  
-[LinkedIn](https://www.linkedin.com/in/mohitnagar1998/) • [GitHub](https://github.com/mohitnagar1998)
+Software Engineer @ Venera Technologies  
+[LinkedIn](https://www.linkedin.com/in/mohitnagar1998/) • [GitHub](https://github.com/mohitnagar1998) • [LeetCode](https://leetcode.com/u/mohitnagar1998/)
 
 ---
 
