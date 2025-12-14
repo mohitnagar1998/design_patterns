@@ -94,10 +94,6 @@ Each pattern includes a clear UML-style diagram showing:
 - Relationships (inheritance, composition, etc.)
 - Execution flow
 
-Example:
-
-**Strategy Pattern Diagram**
-![Strategy Pattern](./StrategyPattern/diagram.png)
 
 ---
 
