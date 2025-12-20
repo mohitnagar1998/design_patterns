@@ -13,6 +13,10 @@ class CreditCardPayment(PaymentStrategy):
     def pay(self, amount):
         print(f"{amount} paid using credit card")
 
+class PaytmPayment(PaymentStrategy):
+    def pay(self, amount):
+        print(f"{amount} paid using paytm")
+
 
 class DebitCardPayment(PaymentStrategy):
     def pay(self, amount):
@@ -34,3 +38,7 @@ if __name__ == "__main__":
 
     payment.setStrategy(DebitCardPayment())
     payment.makePayment(2500)
+
+    payment.setStrategy(PaytmPayment())
+    payment.makePayment(4000)
+

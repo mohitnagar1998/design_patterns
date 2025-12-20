@@ -20,6 +20,10 @@ class Hexagon(Shape):
     def draw(self):
         print("drawing a hexagon")
 
+class Triangle(Shape):
+    def draw(self):
+        print("drawing a traingle")
+
 
 class ShapeFactory:
 
@@ -41,6 +45,8 @@ if __name__ == "__main__":
 
     shape1 = factory.create_shape('circle')
     shape2 = factory.create_shape('hexagon')
+    shape3 = factory.create_shape('triangle')
 
     shape1.draw()
     shape2.draw()
+    shape3.draw()
