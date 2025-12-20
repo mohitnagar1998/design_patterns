@@ -59,7 +59,7 @@ Each pattern folder contains:
 
 - Python 3.10+
 - PyCharm
-- draw.io / Lucidchart
+- https://excalidraw.com/
 
 ---
 
@@ -72,7 +72,7 @@ Each pattern folder contains:
 ## 👨‍💻 Author
 
 Mohit Nagar  
-Software Engineer @ Venera Technologies  
+Software Engineer
 LinkedIn: https://www.linkedin.com/in/mohitnagar1998/  
 GitHub: https://github.com/mohitnagar1998  
 
