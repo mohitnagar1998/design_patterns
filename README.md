@@ -72,12 +72,15 @@ Each pattern folder contains:
 
 ## 👨‍💻 Author
 
+
 Mohit Nagar
+
 Software Engineer
 
 LinkedIn: https://www.linkedin.com/in/mohitnagar1998/
 
 GitHub: https://github.com/mohitnagar1998
+
 ---
 
 🧱 “Good design is invisible — it just works.”
