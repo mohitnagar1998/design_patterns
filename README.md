@@ -23,17 +23,18 @@ The goal of this project is to provide **clear, practical, and easy-to-understan
 
 ## 🧠 Project Structure
 
+```text
 design_patterns/
-│
 ├── AbstractFactoryPattern/
-├── FactoryPattern/
-├── DecoratorPattern/
-├── ProxyPattern/
-├── ObserverPattern/
-├── ChainOfResponsibilityPattern/
-├── StrategyPattern/
-├── NullObjectPattern/
-└── README.md
+├── FactoryPattern/                
+├── DecoratorPattern/              
+├── ProxyPattern/                 
+├── ObserverPattern/               
+├── ChainOfResponsibilityPattern/  
+├── StrategyPattern/               
+├── NullObjectPattern/             
+└── README.md                      
+```
 
 Each pattern folder contains:
 - Pattern code implementation
